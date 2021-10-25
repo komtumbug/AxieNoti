@@ -15,3 +15,4 @@ def GenImg():
 
 def DelImg():
     os.remove(imgname)
+

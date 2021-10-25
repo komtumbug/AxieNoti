@@ -63,7 +63,7 @@ def AxiePost():
 def LinePost():
     url = "https://notify-api.line.me/api/notify"
 
-    payload='message=EIEI&imageFullsize=https://storage.googleapis.com/assets.axieinfinity.com/axies/7479197/axie/axie-full-transparent.png&imageThumbnail=https://storage.googleapis.com/assets.axieinfinity.com/axies/7479197/axie/axie-full-transparent.png'
+    payload='message=Test&imageFullsize=https://storage.googleapis.com/assets.axieinfinity.com/axies/7479197/axie/axie-full-transparent.png&imageThumbnail=https://storage.googleapis.com/assets.axieinfinity.com/axies/7479197/axie/axie-full-transparent.png'
     headers = {
     'Content-Type': 'application/x-www-form-urlencoded',
     'Authorization': 'Bearer 09sUzzKu85CfrIb1O585H0eQc0s9QOK6BCYJMSJYKld'
