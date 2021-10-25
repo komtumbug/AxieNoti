@@ -36,7 +36,6 @@ class AxieImage:
             background = Image.new("RGB", (500, 600), ImageColor.getrgb("#242735"))
             cls = value["class"]
 
-            print(value["id"])
             classIcon = Image.open(f"./icons/class_{cls}.png").convert('RGBA')
 
             response = requests.get(value["image"])
