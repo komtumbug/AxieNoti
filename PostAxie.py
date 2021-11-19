@@ -146,8 +146,8 @@ def LinePost():
 
 
 def UploadImgur1():
-  client_id = 'ed8f553709ab4c2'
-  client_secret = '13d5b3c0181d1370b382fe56f8e2984b6f8d6eac'
+  client_id = '***'
+  client_secret = '***'
 
   PATH1 = "D:/RangsitWork/axieNotify/axie01.png"
   im = pyimgur.Imgur(client_id)
@@ -155,8 +155,8 @@ def UploadImgur1():
   return uploaded_image.link
 
 def UploadImgur2():
-  client_id = 'ed8f553709ab4c2'
-  client_secret = '13d5b3c0181d1370b382fe56f8e2984b6f8d6eac'
+  client_id = '**'
+  client_secret = '***'
 
   PATH1 = "D:/RangsitWork/axieNotify/axie02.png"
   im = pyimgur.Imgur(client_id)
